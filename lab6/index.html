@@ -16,8 +16,39 @@
 
 		<h3>Results</h3>
 		<p>The results of this lab were that it was fairly simple onece we remembered how to do everything.</p>
-
 	</div>
+
+	<form action="http://google.com/search" method="GET" target="_blank">
+
+		Input your question:<br>
+		<input type="input" name="q"/><br>
+
+		<label><input type"checkbox" name="human"/>Are you a human?</label><br>
+
+		Would you like to save your search?
+		<label><input type="radio" name="searchsave" value="yes"/>Yes<label><br>
+		<label><input type="radio" name="searchsave" value="no"/>No<label><br>
+
+		Password
+		<input type="password" name="password"/><br>
+
+		<select name="hl">
+			<option disabled selected>Please Select Language</option>
+			<option value="en">English</option>
+			<option value="es">Español</option>
+			<option value="fr">Frech</option>
+			<option value"ja">Japanese</option>
+			<option value="zh">Chinese</option>
+		</select>
+		<br>
+
+		Type your story:<br>
+		<textarea name="story"></textarea><br>
+
+		<input type="submit" value="search">
+	</form>
+
+		
 
 </body>
 
