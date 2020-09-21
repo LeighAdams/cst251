@@ -6,7 +6,7 @@ body {
 }
 div#content{
   padding: 25px;
-  background-color: slategrey;
+  background-color: lightblue;
   border: solid 3px #4682b4;
 }
 
@@ -16,10 +16,11 @@ h1, h2, h3 {
 }
 
 img {
-    float: right;
+    float: left;
     width: 350px;
     height: auto;
     caption-side: below;
+    border: dotted 3px #000000;
 }
 a {
     text-decoration: none;
