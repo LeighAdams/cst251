@@ -2,7 +2,7 @@ body {
     font-family: "Verdana";
     background-color: aliceblue;
     padding: 50px;
-    font-size: 150%;
+    font-size: 100%;
 }
 div#content{
   padding: 25px;
@@ -16,11 +16,11 @@ h1, h2, h3 {
 }
 
 img {
-    float: left;
+    float: top left;
     width: 350px;
     height: auto;
     caption-side: below;
-    border: dotted 3px #000000;
+    border: dotted 1px #000000;
 }
 a {
     text-decoration: none;
