@@ -1,32 +1,43 @@
 body {
-    font-family: "Verdana";
-    background-color: aliceblue;
-    padding: 50px;
+    font-family: "courier", monospace;
+    color: #bc8f8f;
+    background-color: snow;
+    padding: 10px;
     font-size: 100%;
 }
 div#content{
-  padding: 25px;
-  background-color: lightblue;
-  border: solid 3px #4682b4;
+  padding: 50px;
+  background-color: honeydew;
+  border: dashed 5px #bc8f8f;
+  height: 80vh;
 }
-
-}
-h1, h2, h3 {
-    font-family: "Verdana", monospace;
-}
-
 img {
+    padding: 1px;
     float: top left;
     width: 350px;
     height: auto;
     caption-side: below;
-    border: dotted 1px #000000;
+    border: dashed 2px #006400;
 }
-a {
+
+}
+h1, h2, h3 {
+    font-family: "courier", monospace;
+    color: #bc8f8f;
+}
+
+p {
     text-decoration: none;
-    color: black;
+    color: #006400;
 }
-a:hover {
+p:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
+}
+
+figcaption {
+  font-family: "courier", monospace;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #006400;
 }
