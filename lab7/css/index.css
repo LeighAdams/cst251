@@ -1,0 +1,31 @@
+body {
+    font-family: "Verdana";
+    background-color: aliceblue;
+    padding: 50px;
+    font-size: 150%;
+}
+div#content{
+  padding: 25px;
+  background-color: slategrey;
+  border: solid 3px #4682b4;
+}
+
+}
+h1, h2, h3 {
+    font-family: "Verdana", monospace;
+}
+
+img {
+    float: right;
+    width: 350px;
+    height: auto;
+    caption-side: below;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
