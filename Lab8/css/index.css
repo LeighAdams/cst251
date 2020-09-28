@@ -5,19 +5,20 @@ body{
 div#content{
   background-color: #170129;
   height: auto;
-
 }
+
 h1{
   font-family: "courier", monospace;
   font-weight: bold;
   font-size: 36px;
   color: #6913b0;
 }
-h2, h3 {
-    font-family: "courier", monospace;
-    font-weight: bold;
-    font-size: 24px;
-    color: #19b524;
+
+h2, h3{
+  font-family: "courier", monospace;
+  font-weight: bold;
+  font-size: 24px;
+  color: #19b524;
 }
 
 div.image{
@@ -31,43 +32,44 @@ div.image{
 
 img{
   padding-top: 25px;
-  float: top;
+  align-content: center;
   width: 400px;
   height: 400px;
-  align-content: center;
 }
 
 figcaption{
-  font-family: "courier", monospace;
+  font-family: fantasy;
   font-weight: bolder;
   color: #000000;
   font-size: 24px;
   font-variant: small-caps;
-  text-align: left;
+  text-shadow: 3px;
 }
-
 
 div.info{
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 150%;
+  line-height: normal;
 }
-p {
-    text-decoration: none;
-    color: #db660d;
-    text-shadow: 1px;
-    font-style: bold;
-    font-size: 18px;
+
+p{
+  color: #db660d;
+  font-family: "courier, monospace";
+  font-style: bold;
+  font-size: 18px;
 }
-p:hover {
-    text-decoration: underline;
-    text-decoration-style: dotted;
+
+p:hover{
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: ##6913b0;
 }
 
 nav{
   font-size: 24px;
-  font-family: "courier", monospace;
+  font-family: fantasy;
   font-weight: bold;
   color: #6913b0;
   text-decoration: underline;
+  text-align: left;
 }
