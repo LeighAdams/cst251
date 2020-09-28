@@ -1,0 +1,96 @@
+html, body{
+  background-color: #000;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mainpage{
+  background-color: #000;
+  border: dashed 1px #c71616;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  width: inherit;
+}
+
+nav{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: small-caps;
+  color: ghostwhite;
+  text-align: left;
+}
+
+#image{
+  width: 300px;
+  height: auto;
+  float: top;
+  margin: 40px;
+  border-style: double;
+  border-color: ghostwhite;
+  border-width: thick;
+  border-radius: 1px;
+}
+
+#image img{
+  width: 100%;
+  height: 100%;
+}
+
+.bigideas{
+  padding-left: 10px;
+  text-align: left;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  color: ghostwhite;
+}
+
+.challenges{
+  padding-left: 10px;
+  text-align: left;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  color: ghostwhite;
+}
+
+.results{
+  padding-left: 10px;
+  text-align: left;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  color: ghostwhite;
+}
+
+h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 36px;
+  color: #c71616;
+  text-align: center;
+  border-style: double;
+  border-color: ghostwhite;
+  border-width: thick;
+  border-radius: 20px;
+  width: 40%;
+  height: auto;
+}
+
+h2{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 30px;
+  color: #c71616;
+  text-align: left;
+}
+
+p.song #image,#mainpage{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #c71616;
+  font-size: 13px;
+  text-align: center;
+}
