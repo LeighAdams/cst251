@@ -1,0 +1,98 @@
+html, body{
+  background-color: inherit;
+  background-image: url("../img/1382366.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mainpage{
+  background-color: ghostwhite;
+  border: dotted 100px #000;
+  border-width: thick;
+  border-spacing: inherit;
+  padding-left: 10px;
+  height: auto;
+  width: inherit;
+}
+
+h1{
+  font-family: "courier", monospace;
+  font-weight: bolder;
+  font-size: 36px;
+  font-variant: small-caps;
+  color: #000;
+  text-align: left;
+  padding-left: 5px;
+
+}
+
+h2,h3{
+  font-family: "courier", monospace;
+  font-weight: bold;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #000;
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+#info{
+  padding-left: 5px;
+  height: auto;
+  width: inherit;
+}
+
+p.special #info,#mainpage{
+  font-family: "courier" monospace;
+  font-size: 14px;
+  font-weight: bold;
+  font-variant: normal;
+  font-style: italic;
+  width: auto;
+
+  color: #442975;
+  line-height: inherit;
+}
+
+.image{
+  width: 200px;
+  height: 350px;
+  float: right;
+  margin: 20px;
+  border-style: double;
+  border-color: rebeccapurple;
+  border-spacing: inherit;
+  border-width: thick;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+}
+
+.assignmentsmajor-section{
+  font-family: "courier", monospace;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 18px;
+  font-variant: small-caps;
+  color: rebeccapurple;
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 5px;
+  padding-bottom: 100px;
+}
+
+.credit {
+  font-family: "courier" monospace;
+  font-size: 11px;
+  font-style: italic;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+}
