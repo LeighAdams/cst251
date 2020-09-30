@@ -27,8 +27,8 @@ h1{
   color: #000;
   text-align: left;
   padding-left: 5px;
-
 }
+
 
 h2,h3{
   font-family: "courier", monospace;
@@ -54,7 +54,7 @@ p.special #info,#mainpage{
   font-variant: normal;
   font-style: italic;
   width: auto;
-
+  word-spacing: 7px;
   color: #442975;
   line-height: inherit;
 }
