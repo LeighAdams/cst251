@@ -38,6 +38,7 @@ nav{
 
 .bigideas{
   padding-left: 10px;
+  border-bottom: dashed 1px #000;
   text-align: left;
   font-family:'Shadows Into Light', cursive;
   font-size: 20px;
@@ -46,6 +47,7 @@ nav{
 
 .challenges{
   padding-left: 10px;
+  border-bottom: dashed 1px #000;
   text-align: left;
   font-family:'Shadows Into Light', cursive;
   font-size: 20px;
@@ -54,6 +56,7 @@ nav{
 
 .results{
   padding-left: 10px;
+  border-bottom: dashed 1px #000;
   text-align: left;
   font-family:'Shadows Into Light', cursive;
   font-size: 20px;
