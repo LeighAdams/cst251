@@ -1,0 +1,13 @@
+html,body{
+  background-color: #4acfed;
+}
+
+#title{
+  border: 500px dotted #867db0;
+  
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+}

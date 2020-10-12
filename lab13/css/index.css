@@ -1,0 +1,50 @@
+html, body{
+  height: auto;
+  background-color: ghostwhite;
+}
+
+#content{
+  width: auto;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  background-color: #748a74;
+}
+
+#links{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 12px;
+  font-variant: small-caps;
+  font-style: italic;
+  color: ghostwhite;
+  text-align: left;
+  position: sticky;
+}
+#links a{
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.bigideas, .challenges, .results{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 14px;
+  color: ghostwhite;
+  text-align: left;
+  font-stretch: extra-expanded;
+}
+
+h1, h2{
+  font-family: 'Philosopher', sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+  color: #daf0dd;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
