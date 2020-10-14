@@ -25,6 +25,20 @@ html, body{
   color: ghostwhite;
 }
 
+#newlink{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 12px;
+  font-variant: small-caps;
+  font-style: italic;
+  color: ghostwhite;
+  text-align: left;
+}
+
+#newlink a{
+  text-decoration: none;
+  color: ghostwhite;
+}
+
 .bigideas, .challenges, .results{
   font-family: 'Philosopher', sans-serif;
   font-size: 14px;
@@ -40,6 +54,18 @@ h1, h2{
   font-size: 36px;
   text-align: left;
   color: #daf0dd;
+}
+
+.image{
+  width: 800px;
+  height: 500px;
+  resize: both;
+  overflow: hidden;
+}
+
+.image img{
+  width: 100%;
+  max-width: 100%;
 }
 
 iframe#fake {
