@@ -1,0 +1,76 @@
+html,body{
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+#menu{
+  top: 0px;
+  position: sticky;
+  font-family: Times, serif;
+  font-size: 20px;
+  float: left;
+  color: black;
+}
+
+#international{
+  top: 0px;
+  position: sticky;
+  font-family: Times, serif;
+  font-size: 20px;
+  float: right;
+  color: black;
+}
+
+#title{
+  position: relative;
+  top: 300px;
+  padding-left: 165px;
+  width: 50%;
+}
+
+h1{
+  font-family: "Oxygen", sans-serif;
+  color: black;
+  font-size: 190px;
+  letter-spacing: -10px;
+}
+
+ #paragraph{
+   position: absolute;
+   top: 600px;
+   padding-left: 165px;
+   font-family: "Oxygen", sans-serif;
+   font-size: 25px;
+   color: white;
+   line-height: 40px;
+ }
+
+ #image{
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   z-index: -10;
+ }
+
+ #image img{
+   display: block;
+   width: 100%;
+   height: 100%;
+   max-width: 100%;
+ }
+
+ #links{
+   font-family: Times,serif;
+   font-size: 12px;
+   text-align: left;
+   position: relative;
+   top: 400px;
+ }
+
+ #links a{
+   text-decoration: none;
+   color: black;
+ }
