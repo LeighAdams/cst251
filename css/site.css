@@ -55,7 +55,7 @@ p.special #info,#mainpage{
   font-style: italic;
   width: auto;
   word-spacing: 7px;
-  color: #442975;
+  color: #0fbd3d;
   line-height: inherit;
 }
 
@@ -65,7 +65,7 @@ p.special #info,#mainpage{
   float: right;
   margin: 20px;
   border-style: double;
-  border-color: rebeccapurple;
+  border-color: #0b7d44;
   border-spacing: inherit;
   border-width: thick;
 }
@@ -87,7 +87,7 @@ p.special #info,#mainpage{
 }
 
 .assignmentsmajor-section a{
-  color: rebeccapurple;
+  color: #0b7d44;
   text-decoration: none;
 }
 
