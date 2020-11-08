@@ -1,0 +1,59 @@
+body{
+  background-color: #8fcc9f;
+}
+.col {
+  min-height: 200px;
+  text-align: center;
+  border: solid 1px black;
+  min-width: 200px;
+  background-color: white;
+}
+
+.col h1, .col h2 {
+  text-align: center;
+  color: #046e20;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 36px;
+  font-family: 'Kufam', cursive;
+}
+
+.col h3{
+  text-align: left;
+  color: #046e20;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 26px;
+  font-family: 'Kufam', cursive;
+}
+
+.row {
+  border: solid 1px black;
+  padding: 10px;
+  background-color: white;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  border: solid 7px #8fcc9f;
+}
+
+
+p{
+  text-align: left;
+  color: black;
+  font-size: 18px;
+  font-family: 'Kufam', cursive;
+  font-weight: lighter;
+}
+
+figcaption{
+  text-align: left;
+  color: black;
+  font-size: 12px;
+  font-family: 'Kufam', cursive;
+  font-weight: lighter;
+  font-style: italic;
+}
