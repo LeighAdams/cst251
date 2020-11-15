@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script
+      src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <!-- Popper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <!-- Latest compiled Bootstrap JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <script src="js/myscript.js"></script>
+    <!-- Mobile-first: ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Lab 20: Team Project Sketches</title>
   </head>
+
   <body>
-  <!-- white with black text -->
-    <nav>
-      <h1>Navigation</h1>
+    <!-- black with white text -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">>
       <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Lab 20</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="bootstrap.html">Lab 19</a>
+          <a class="nav-link" href="../lab19/bootstrap.html">Lab 19</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../lab18/index.html">Lab 18</a>
@@ -20,36 +40,49 @@
           <a class="nav-link" href="../lab17/index.html">Lab 17</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="../lab16/index.html">Lab 16</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="../index.html">Homepage</a>
         </li>
       </ul>
     </nav>
 
     <main class="container">
-      <div class="title">
-          <h1>Lab 20 Team Project Sketches</h1>
+
+      <div class="row"> <!-- row1 -->
+        <div class="col col-sm-12">
+          <h2>Lab 20 Team Project Sketches</h2>
+          <p>This bootstrap template was copied from Wes Modes' example on github</p>
+        </div>
+      </div> <!-- row1 -->
+
+      <div class="row">  <!-- row2 -->
+        <div class="col col-sm-9">
           <h2>Big Ideas</h2>
           <p>For this I was tasked to sketch 15 ideas for the final project webpage. I focused mainly on the homepage because I believe that it's the most important page since it's the first page that veiwers will see. Our idea for the final website is most likely going to be "Things We Missed Out On Due to Covid-19", so I wanted the site to be more image based rather than text heavy since it is already a somber subject.</p>
-      </div>
-
-      <div class="challenges">
-        <h2>Challenges</h2>
-        <p>I did not have many challenges for this lab. I did struggle to come up completely new and different website layout ideas, but I did come up with some ideas that I would be proud to display.</p>
-      </div>
-
-      <div class="results">
-        <h2>Results</h2>
-        <p>Here are the skectches I made for my project. I created 15 sketches, as per the assignment, and experimented with different page layouts. I found this exercise to be better than others simply because it allowed me to think about how to organize a website without the constraints of my own programming abilities.</p>
-          <div class="section">
+          <!-- <button type="button" class="btn btn-warning">Look I'm a Button</button> -->
+          <br><br>
+          <!-- new bs4 grid -->
+          <div class="row"> <!-- row 2-1 -->
               <div class="col">
-                <h3>My Sketches</h3>
-                <img src="img/sketch01.jpg">
-              </div>
+                <h2>Challenges</h2>
+                <p>I did not have many challenges for this lab. I did struggle to come up completely new and different website layout ideas, but I did come up with some ideas that I would be proud to display.</p>
+              </div> <!-- col1 -->
               <div class="col">
-                <img src="img/sketch02.jpg">
-              </div>
-          </div>
+                <h2>Results</h2>
+                <p>Here are the skectches I made for my project. I created 15 sketches, as per the assignment, and experimented with different page layouts. I found this exercise to be better than others simply because it allowed me to think about how to organize a website without the constraints of my own programming abilities.</p>
+              </div> <!-- col2 -->
+          </div> <!-- row2-1 -->
+        </div> <!-- col-sm-9 -->
+        <div class="col col-sm-3">
+          <h2>My sketches</h2>
+          <img src="img/sketch01.jpg">
+          <img src="img/sketch02.jpg">
         </div>
+      </div> <!-- row2 -->
+      
     </main>
+
   </body>
 </html>
