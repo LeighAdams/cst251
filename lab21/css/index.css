@@ -44,7 +44,7 @@ html, body{
   height: 100%;
 }
 
-.attributes{
+.bigideas, .challenges, .results{
   font-family: "courier", monospace;
   font-size: 14px;
   color: #38444a;
